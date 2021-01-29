@@ -1,0 +1,75 @@
+var arr=['Привет, ','мир','!!',];
+console.log(arr[0]+arr[1]+arr[2]);
+
+var arr=['Привет, ','мир','!!',];
+var loc=arr[0]+arr[1]+arr[2];
+console.log(loc);
+
+
+var arr=['Привет, ','мир','!!',];
+arr[0]='Пока, ';
+console.log(arr[0]+arr[1]+arr[2]);
+
+
+
+var obj={'Kolya':'2000', 'Vasya':'800', 'Petya':'500' };
+console.log(obj['Kolya'], obj['Vasya'], obj['Petya']);
+
+
+
+var arr=[1, 2, 3, 4, 5];
+console.log(arr[0], arr[1], arr[2], arr[3],arr[4]);
+ var arr1=[];
+ arr1[0]=1;
+ arr1[1]=2;
+ arr1[2]=3;
+ arr1[3]=4;
+ arr1[4]=5;
+console.log(arr1[0], arr1[1], arr1[2], arr1[3], arr1[4]);
+
+
+
+
+var arr={
+'ru':['голубой','зеленый','красный'],
+'en':['blue','green','red'],
+};
+console.log(arr['ru'][0]);
+console.log(arr['ru'][2]);
+
+
+var arr=['a','b', 'c'];
+console.log(arr[0], arr[1], arr[2]);
+console.log(arr[0]+arr[1],arr[0]+arr[2]);
+
+
+var arr={js:['jQuery', 'Angular'],
+ph:'hello',
+css:'world'};
+console.log(arr['js'][0]);
+
+
+var arr=[2,5,3,9];
+var result=arr[0]*arr[1]+arr[2]*arr[3];
+console.log(result);
+
+var obj={a:1, b:2, c:3};
+console.log(obj.b);
+console.log(obj['b']);
+
+
+var lunes={'1':'monday', '2':'tusday', '3':'wensday', '4':'thursday', '5':'friday', '6':'saturday', '7':'sanday'};
+console.log(lunes['5']);
+var day=lunes['3'];
+console.log(day);
+
+var arr=[[1,2,3], [4,5,6], [7,8,9]];
+console.log(arr[1][0]);
+
+var arr={
+    'ru':['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'],
+    'en':['monday', 'tusday', 'wensday', 'thursday', 'friday', 'saturday', 'sanday']
+};
+console.log(arr['ru'][0], arr['en'][2]);
+
+
